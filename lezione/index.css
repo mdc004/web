@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+#header {
+    margin-left:350px;
+    margin-right:350px;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    width: 130px;
+    height: auto;
+}
+
+p{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+#map{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    text-align: right;
+    background-color: gray;
+}
+
+#copy {
+    margin-top: 0px;
+}
+
+table,td,th {
+    border: 2px solid red;
+    border-collapse: collapse;
+
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    table-layout: fixed;
+}
+
+td,th {
+    padding: 5px;
+    background-color: lightblue;
+    
+}
+
+td:hover {
+    background-color: lightskyblue;
+}

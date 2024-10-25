@@ -1,0 +1,67 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Game Area */
+.container{
+    overflow: hidden;
+
+    width: 60%;
+    height: 200px;
+    border: 1px solid black;
+
+    background-image: url(background/background_1.png);
+    /* animation: move_background 60s infinite linear; */
+}
+
+.obstacle{
+    position: fixed;
+    left : 1000px;
+    /* top: 380px; */
+
+    background-color: red;
+
+    z-index: 500;
+    
+    width: 20px;
+    height: 20px;
+}
+
+.background{
+    position: relative;
+    left : 2000px;
+    /* top: 380px; */
+
+    z-index: 0;
+}
+
+/* Start Button */
+
+#start{
+    border: 2px solid darkred;
+    background-color: rgba(255, 255, 255, 0.698);
+
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+    
+    text-align: center;
+
+    cursor: pointer;
+}
+
+/* Score cell */
+#score{
+    margin-right: 1%;
+    margin-top: 1%;
+    
+
+    visibility: hidden;
+    text-align: right;
+    
+}
+

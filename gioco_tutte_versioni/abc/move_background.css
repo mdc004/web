@@ -1,0 +1,7 @@
+.container{
+    animation: move_background 60s infinite linear;
+}
+
+@keyframes move_background{
+    100% {background-position: -100000px 0px;}
+}

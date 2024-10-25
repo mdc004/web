@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Crea la tua lista</title>
+</head>
+<body onkeyup="premi_aggiungi()">
+    <div class="base">
+        <div class="inserimento">
+            <input class="inserimento" id="nome" type="text">
+            <input class="inserimento" id="cognome" type="text">
+        </div>
+            <div class="bottoni_raccolta">
+            <button id="aggiungi" onclick="aggiungi()">
+                <img class="icona_bottone" title="aggiungi un partecipante" src="icons/aggiungi.svg" alt="aggiungi partecipante">
+            </button>
+            <button id="mostra_lista" onclick="mostra_lista()">
+                <img class="icona_bottone" title="mostra la lista" src="icons/mostra_lista.svg" alt="mostra lista">
+            </button>
+            <button id="nascondi_lista" onclick="nascondi_lista()">
+                <img class="icona_bottone" title="nascondi la lista" src="icons/nascondi_lista.svg" alt="nascondi lista">
+            </button>
+            <button id="stampa" onclick="stampa()">
+                <img class="icona_bottone" title="salva la lista in un pdf" src="icons/stampa.svg" alt="sscarica la lista">
+            </button>
+            <button id="svuota" onclick="svuota()">
+                <img class="icona_bottone" title="svuota la lista" src="icons/svuota.svg" alt="svuota la lista">
+            </button>
+
+            <!-- Bottone per rimuovere -->
+            <button id="rimuovi" onclick="rimuovi()">
+                <img class="icona_bottone" title="rimuovi un partecipante" src="icons/rimuovi_partecipante.svg" alt="rimuovi un partecipante">
+            </button>
+        </div>
+        <div>
+            <ul id="lista">
+                <li id="invitato">Invitati </li>
+                <!-- ... -->
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="jspdf.min.js"></script>
+</body>   
+</html>

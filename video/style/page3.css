@@ -1,0 +1,137 @@
+.left {
+    float: left;
+    padding: 3%;
+    padding-left: 2.5%;
+    padding-right: 3%;
+    margin-top: 1%;
+    background-color: #110952;
+    color: white;
+    width: 39%;
+    border-radius: 20px;
+    margin-left: 1%;
+    box-shadow: 10px 10px 5px #210dbd;
+    font-family: 'Karla ExtraLight';
+    
+}
+
+.right {
+    float: right;
+    padding: 2%;
+    padding-left: 2.5%;
+    padding-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #210dbd;
+    color: white;
+    width: 40%;
+    border-radius: 20px;
+    margin-right: 1%;
+    box-shadow: 10px 10px 5px #110952;
+    font-family: 'Karla ExtraLight';
+    
+} 
+.imgleft {
+    float: left;
+    padding: 1%;
+    margin-top: 1%;
+    background-color: #110952;
+    color: white;
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 1%;
+    box-shadow: 10px 10px 5px #210dbd;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgright {
+    float: right;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #210dbd;
+    color: white;
+    width: 40%;
+    border-radius: 20px;
+    margin-right: 1%;
+    box-shadow: 10px 10px 5px #110952;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+img{
+    width: 66%;
+}
+
+h3{
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 1400px) {
+    .right{
+        font-size: 15px;
+    }
+    .left{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .base{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    h3{
+        width: 90%;
+        margin: 1%;
+    }
+
+    .imgright{
+        float: none;
+        margin: 1%;
+    }
+
+    .imgleft{
+        float: none;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .base{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .left{
+        width: 90%;
+        margin: 1%;
+    }
+
+    .right{
+        width: 90%;
+        margin: 1%;
+    }
+
+    .imgright{
+        float: none;
+        width: 40%;
+        margin: 1%;
+    }
+
+    .imgleft{
+        float: none;
+        width: 40%;
+        margin: 1%;
+    } 
+}

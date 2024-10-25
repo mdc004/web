@@ -1,0 +1,197 @@
+body{
+    color: white;
+    
+}
+
+.tit{
+    text-align: center;
+}
+
+
+/* Layout */
+
+.base{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.riga1{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.riga2{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.riga3{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.riga4{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.streaming{
+    width: 90%;
+    border-radius: 20px;
+    background-color: #110952;
+    box-shadow: 10px 10px 5px #999797;
+    
+    font-size: 20px;
+    font-family: 'Karla ExtraLight';
+    text-align: justify;
+    
+    padding: 4%;
+
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Contenuto Div */
+
+.testo{
+    border-radius: 20px;
+    background-color: #110952;
+    box-shadow: 10px 10px 5px #999797;
+    
+    font-size: 22px;
+    font-family: 'Karla ExtraLight';
+    text-align: justify;
+    
+    padding: 3%;
+
+    margin: 2%;
+    margin-left: 0%;
+    margin-right: 5%;
+
+    width: 50%;
+}
+
+.immagini{
+    background-color: #100375;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #999797;
+    
+    padding: 3%;
+    margin: 1%;
+
+    height: auto;
+}
+
+.responsive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img.imm{
+    height: 20%;
+    width: auto;
+    
+    margin: 2%;
+}
+
+div.imm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    border-radius: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1500px) {
+    .testo{
+        font-size: 17px;
+        width: 90%;
+        
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .streaming{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+    .riga1{
+    flex-direction: column;
+    }
+
+    .riga2{
+    flex-direction: column;
+    }
+
+    .riga3{
+    flex-direction: column;
+    }
+
+    .riga4{
+    flex-direction: column;
+    }
+}
+
+/* Tabelle codec e container */
+.tab{
+    color: white;
+    text-decoration: underline;
+}
+
+table{
+    margin: 1%;
+    
+    background-color: #100375;
+
+    font-family: 'Karla ExtraLight';
+}
+
+table,tr{
+    border: 2px solid #100375;
+    border-radius: 15px;
+    
+}
+
+td,th{
+    padding: 1%;
+    text-align: center;
+}
+
+.contenitore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

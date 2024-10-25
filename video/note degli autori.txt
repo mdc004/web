@@ -1,0 +1,10 @@
+Il sito è stato realizzato per uso puramente didattico dagli alunni Simone Andreaggi, Mattia De Capitani, Aaron Merlo e Fedro Tomaselli Scardia dell'istituo di istruzione superiore statale Francesco Viganò
+di Merate, in provincia di Lecco; su commissione del Docente professor Codara Pietro, su richiesta del medesimom è stato reso disponibile come cartella compressa (file zip).
+
+La realizzazione del sito è stata suddivisa nel seguente modo: stile e layout sono stati scelto in comunione con tutti i membri del progetto; la pagina "introdution" (index.html) e il suo contenuto è stata realizzata in comune con tutti i partecipanti; la pagina "Storia" (page1.html) 
+e il suo contenuto è stata realizzata da Fedro Tomaselli Scardia, la pagina "Formati e trasmissione" (page2.html) e il suo contenuto è stata realizzata da Mattia De Capitani, la pagina "Monitor e TV" (page3.html) e il suo contenuto da Simone Andreaggi, infine la pagina "Gaming" (page4.html) 
+e il suo contenuto da Aaron Merlo.
+
+Fonti
+Per quanto riguarda il testo le informazioni sono state reperite da siti esterni e dal libro di testo "Nuove tecnologie e progettazione di sistemi informatici e di telecomunicazione" di Paolo Camagni e Riccardo Nikolassy; mentre le immagini
+sono state prese da google immagini (simbolo c) e opportunemente rielaborate attraverso l'uso delle applicazioni "Adobe Photoshop 2020" e "Adobe Illustrator 2020"

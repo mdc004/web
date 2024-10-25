@@ -1,0 +1,253 @@
+
+body{
+    margin-bottom: 0.5%;
+}
+
+.responsive{
+    height: 48%;
+    margin-left: 3.5%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ground {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left_div{
+    display: flex;
+    flex-direction: column;
+    padding:0%;
+    margin:0%;
+    width: 54%;
+}
+
+.left_top {
+    padding: 2%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    margin-top: 1%;
+    background-color: #110952;
+    color: white;
+    width: 98%;
+    border-radius: 20px;
+    margin-left: 2%;
+    box-shadow: 10px 10px 5px #868484;
+}
+
+.left_bottom {
+    padding: 2%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    margin-top: 1%;
+    background-color: #110952;
+    color: white;
+    width: 98%;
+    height: 49%;
+    border-radius: 20px;
+    margin-left: 2%;
+    box-shadow: 10px 10px 5px #868484;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_img {
+    padding: 2%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    margin-top: 1%;
+    background-color: #110952;
+    color: white;
+    width: 98%;
+    height: 49%;
+    border-radius: 20px;
+    margin-left: 2%;
+    box-shadow: 10px 10px 5px #868484;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_div{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    width: 40%; 
+    height: 100%;   
+}
+
+.right {
+    padding: 2%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    margin-top: 1%;
+    background-color: #100375;
+    color: white;
+    width: 98%;
+    border-radius: 20px;
+    margin-right: 2%;
+    margin-left:10%;
+    float: right;
+    box-shadow: 10px 10px 5px #868484;
+}
+
+.text {
+    padding:1%;
+    line-height: 130%;
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'Karla ExtraLight';
+}
+
+.introduction {
+    padding:1%;
+    line-height: 140%;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Karla ExtraLight';
+}
+
+img.image {
+    margin-left:1%;
+}
+
+img.image2 {
+    margin-left:5%;
+}
+
+img.image3-4 {
+    margin-left:5%;
+}
+
+img.imagea1 {
+    margin-left:1%;
+}
+
+img.imagea2 {
+    margin-left: 1.5%;
+}
+
+img.imagea3-4 {
+    margin-left: 4%;
+}
+
+img{
+    height: auto;
+    width: 20%; 
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 1800px) {
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .text{
+        font-size: 18px;
+    }
+    .introduction{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .text{
+        font-size: 18px;
+    }
+    
+    .introduction{
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ground{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right_div{
+        height: auto;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .introduction {
+        height: auto;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left_div{
+        height: auto;
+        width: 90%;
+        margin: 1%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left_bottom{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
+        width: 95%;
+        height: auto;
+        margin: 1%;
+        align-items: center;
+        justify-content: center;
+    }
+    .left_img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
+        width: 95%;
+        height: auto;
+        margin: 1%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsive{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right{
+        width: 90%;
+        margin: 1%;
+    }
+
+    img{
+        height: auto;
+        width: 13%; 
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .text{
+        font-size: 15px;
+    }
+}

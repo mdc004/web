@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>The Most Popular Series</title>
+</head>
+<body>
+    <div class="a">
+        <h1 id="position">Prima</h1>
+        <div class="b">
+            <div id="d">
+                <!-- foto -->
+            </div>
+            <div id="e">
+                <!-- Descrizione -->
+                <div class="contenuto" id="titolo"></div><br>
+                <div id="trama"></div>
+            </div>
+        </div>
+        <div class="c">
+            <button onclick="indietro()" id="indietro" class="bottone">
+                <img class="bottone" src="images/indietro.png" alt="indietro">
+            </button>
+            <button onclick="avanti()" id="avanti" class="bottone">
+                <img class="bottone" src="images/avanti.png" alt="avanti">
+            </button>
+        </div>
+    </div>
+    
+    <div class="f">
+        <h1 class="f">Inserisci una nuova serie nella classifica</h1>
+        <input type="text" id="ins_pos" placeholder="Posizione in classifica..">
+        <input type="text" id="ins_foto" placeholder="Nome foto..">
+        <input type="text" id="ins_titolo" placeholder="Titolo..">
+        <input type="text" id="ins_descrizione" placeholder="Trama..">
+        <button onclick="inserisci()" id="ins_bottone" class="bottone">
+            <img class="bottone" src="images/done.png" alt="avanti">
+        </button>
+    </div> 
+    <div id="testohide1">
+        Anno 2001. Yeimy Montoya è una ragazza di 17 anni con uno straordinario talento per il flow. Infatti, è in grado di
+        comporre splendide rime a ritmo di musica, che appunta quotidianamente su un quaderno. La ragazza è affascinata da
+        Carlos Cruz, che si fa chiamare artisticamente "Charly Flow", a sua volta promettente compositore di brani in rima.
+        Purtroppo Yeimy finisce in carcere a seguito dell'omicidio dei suoi genitori avvenuto per mano di Duver Cruz,
+        soprannominato "Manín", a capo della locale malavita e zio di Charly. Proprio a seguito dell'incarcerazione di Yeimy il
+        ragazzo entra in possesso del suo quaderno, grazie al quale costruisce la sua fortunatissima carriera di cantante, senza
+        mai rivelare che i suoi brani musicali, che spopolano tra i giovanissimi, sono in realtà opera di Yeimy. La ragazza, dal
+        canto suo, rinchiusa in carcere, aspetta solo di essere liberata per vendicarsi di Charly e prendersi ciò che le spetta.
+        
+        Anno 2018. Dopo diciassette anni di carcere, Yeimy giunge ad un accordo con le autorità e le viene concessa la
+        scarcerazione.Manín però, che ora gestisce un fiorente impero di narcotraffico, paga una carcerata per avvelenare
+        Yeimy.La ragazza miracolosamente si salva, ma la polizia le propone di comunicare ufficialmente la sua morte e di farle
+        avere una falsa identità per potersi avvicinare a Charly e smascherare i traffici di suo zio.La giovane donna, che non
+        aspetta altra occasione per potersi vendicare dei due, accetta ed assume la falsa identità di Tamy Andrade, una
+        promettente produttrice musicale.Ora la sua vendetta è pronta, ma saranno tante le sfide che la attendono sul cammino,
+        prima tra tutte la forte attrazione per Charly che Yeimy si porta dietro fin da quando è adolescente.",
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

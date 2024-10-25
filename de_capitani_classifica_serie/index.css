@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Noto+Serif&display=swap');
+
+::selection{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Noto Serif', serif;
+
+    background-color: rgb(182, 159, 204);
+
+    color: rgb(47, 45, 45);
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid rgba(128, 0, 128, 0.931);
+    border-radius: 10px;
+    
+    padding: 1%;
+    margin: 1%;
+
+    width: 80%;
+
+    background-color: rgba(224, 174, 231, 0.329);
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Avanti e Indietro */
+.c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Foto */
+.d{
+    margin-right: 10%;
+}
+
+/* Descrizione */
+.e{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1%;
+    margin: 1%;
+
+    margin-left: 10%;
+
+    text-align: justify;
+}
+
+#titolo{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.contenuto{
+    width: 100%;
+}
+
+/* Inserimento */
+div.f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1%;
+    padding: 2.5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+    width: 35%;
+
+    border: 3px solid rgba(128, 0, 128, 0.931);
+    border-radius: 10px;
+    background-color: rgba(224, 174, 231, 0.329);
+}
+
+h1.f{
+    margin-bottom: 10%;
+}
+
+/*Locandina*/
+img.locandina{
+    height: 400px;
+    width: auto;
+    margin: 50px;
+}
+
+/* Pulsanti */
+img.bottone{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(60, 5, 77, 0.2), 0 6px 20px 0 rgba(60, 5, 77, 0.19);
+
+    height: 30px;
+}
+
+img.bottone:hover{
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    box-shadow: 0 8px 4px 0 rgba(60, 5, 77, 0.2), 0 12px 40px 0 rgba(60, 5, 77, 0.19);
+
+}
+
+button.bottone{
+    padding: 10%;
+    margin: 5%;
+    
+    background-color: rgba(142, 78, 158, 0.034);
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#ins_bottone{
+    margin: 3%;
+    padding: 0.5%;
+}
+
+input{
+    border-radius: 7px;
+    border: 2px solid purple;
+
+    background-color: rgba(142, 78, 158, 0.034);
+
+    margin: 1%;
+
+    padding: 1.5%;
+}
+
+input:hover{
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+#testohide1{
+    visibility: hidden;
+}
+
+/* Far scorrere le immagini con le freccette*/
+/* Mettere animazioni alle immagini */

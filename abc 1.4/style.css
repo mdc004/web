@@ -1,0 +1,107 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Game Area */
+.container{
+    overflow: hidden;
+
+    width: 60vw;
+    height: 200px;
+
+    margin-top: 20px;
+
+    border: 1px solid black;
+
+    background-image: url(background/background_1.png);
+
+    /* animation: move_background 60s infinite linear; */
+}
+
+.obstacle{
+    position: fixed; 
+    left : 60vw; 
+    top: calc(220px - 20px);
+
+    margin: 0px;
+
+    background-color: red;
+
+    z-index: 500;
+    
+    width: 20px;
+    height: 20px;
+}
+
+.background{
+    position: relative;
+    left : 2000px;
+    /* top: 380px; */
+
+    z-index: 0;
+
+}
+
+/* Start Button */
+
+#start{
+    border: 2px solid darkred;
+    background-color: rgba(255, 255, 255, 0.698);
+
+    width: 15%;
+    margin-left: 21.25%;
+    margin-top: 6%;
+    
+    text-align: center;
+
+    cursor: pointer;
+
+    position: fixed;
+}
+
+/* Score cell */
+#score{
+    margin-right: 1%;
+    margin-top: 1%;
+    
+
+    visibility: hidden;
+    text-align: right;
+    
+}
+
+/* Omino */
+
+#omino{
+    position: absolute;
+    
+    height: 8vh;
+    left: 25vw;
+
+    top: calc(220px - 8vh);
+}
+
+/* Salto Omino */
+
+.animazione{
+    animation: jump 0.4s linear;
+}
+/* Valori da ritoccare calcolando il tempo di salita e di discesa con accellerazione gravitazionale */
+@keyframes jump 
+{
+    0%{top: calc(220px - 8vh)}
+    15%{top: calc(220px - 12.5vh)}
+    25%{top: calc(220px - 17vh)}
+    35%{top: calc(220px - 21.5vh)}
+    50%{top: calc(220px - 26vh)}
+    65%{top: calc(220px - 21.5vh)}
+    75%{top: calc(220px - 17vh)}
+    85%{top: calc(220px - 14.5vh)}
+    100%{top: calc(220px - 8vh)}
+}
+

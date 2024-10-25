@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+
+    background-image: url("images/background.svg");
+    background-size: cover;
+
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 97.5vw;
+
+
+    padding: 1vw;
+
+    color: white;
+    text-align: justify;
+
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#disclaimer-title{
+    font-size: medium;
+}
+
+#interview{
+    width: 28px;
+    height: 15px;
+}
+
+#random-questions{
+    margin-left: 15%;
+}
+
+#interview-field-label{
+    font-style: italic;
+}
+
+#invia{
+    padding: 5px;
+}
+
+#close{
+    position: fixed;
+    right: 30px;
+    top: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.accept{
+    position: fixed;
+    width: 30%;
+    bottom: 3%;
+    left: calc(100vw/2 - 15%);
+    background-color: rgba(0, 0, 0, 0.694);
+    color: white;
+    padding: 1%;
+}
+
+#linkCoockie{
+    cursor: pointer;
+}
+
+span{
+    text-decoration: underline;
+    cursor: pointer;
+}

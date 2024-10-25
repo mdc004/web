@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    font-family: Outfit;
+    background-color: #4B52DB !important;
+    color: white !important;
+}
+
+.centrato{
+    text-align: center !important;
+}

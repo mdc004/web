@@ -1,0 +1,157 @@
+
+FRAME RATE FPS E HIGH FRAME RATE
+
+
+
+la frequenza dei fotogrammi (in lingua inglese frame rate) è la frequenza di cattura o riproduzione dei fotogrammi che compongono un filmato. Un filmato, o un'animazione al computer, è infatti una sequenza di immagini riprodotte ad una velocità sufficientemente alta da fornire, all'occhio umano, l'illusione del movimento. 
+La frequenza dei fotogrammi viene misurata in hertz (Hz),
+ nei monitor a scansione progressiva, oppure espresso in termini di fotogrammi per secondo (fps).
+
+
+ High Frame Rate, abbreviato in HFR, è un'elevata frequenza di fotogrammi, nome di una nuova tecnica di ripresa e di proiezione,
+  in ambito cinematografico, introdotta dal regista Peter Jackson nel 2012 con la trilogia de Lo Hobbit. Essa abbandona lo standard dei classici 24 fotogrammi al secondo,
+   e introduce una nuova velocità dai "48 ai 60 fotogrammi al secondo", ottenendo così immagini più fluide e quasi prive di artefatti visivi.
+
+Fanno parte di questa nuova tecnologia anche:
+
+50p e 60p nelle modalità non interlacciate utilizzate dai sistemi HDTV. Questi formati, tuttavia, non fanno parte degli standard ATSC e DVB.
+120p è uno standard non interlacciato a 120 fps che verrà utilizzato dai sistemi UHD.
+
+
+
+Le modalità di scansione video standard - e le relative frequenze - utilizzate in ambito televisivo e cinematografico sono:
+
+24p è sistema di scansione non interlacciato a 24 fps, originariamente concepito per il montaggio non lineare,
+ ma largamente utilizzato anche per motivi estetici a motivo della resa simile, in termini di movimento, a quella della pellicola cinematografica. Nella conversione al sistema NTSC, il frame rate viene rallentato a 23,976 fps, mentre in quella a PAL o SECAM viene velocizzato a 25 fps. 
+La modalità 24p fu lo standard de facto del cinema sonoro della metà degli anni 1920.[1]
+30p è uno standard non interlacciato a 30 fps. La scansione progressiva, rispetto a quella interlacciata, 
+migliora la qualità dell'immagine e viene utilizzata per contenuti ad alta definizione; lo standard 30p permette, infatti, 
+una riproduzione video priva di artefatti. Questo frame rate fu utilizzato, tra il 1954-1956, anche dal formato cinematografico ad alta definizione Todd-AO.[2]
+50i (50 semiquadri al secondo = 25 fps) è il sistema di scansione interlacciata standard dei sistemi di codifica PAL e SÉCAM,
+ comunemente utilizzati dalle televisioni analogiche europee.
+60i (60 o 59,94 semiquadri al secondo = 29,97 fps) è il sistema di scansione interlacciata standard per il sistema di codifica analogico NTSC (comunemente utilizzato dalle TV statunitensi). Lo standard fu sviluppato da Philo Farnsworth e Vladimir Zworykin nel 1934[3] e adottato dal sistema NTSC nel 1941. Con l'introduzione del colore nel 1953,
+ l'originale frame rate fu ridotto di un fattore 1000/1001 al fine di evitare le interferenze tra la sottoportante croma e la portante audio del segnale.
+
+
+
+
+ Un fenomeno correlato al numero di fotogrammi al secondo - in particolare su uno schermo a tubo catodico - è lo "sfarfallio" (flicker) dell'immagine ovvero un cambiamento continuo di luminosità che compromette la qualità dell'esperienza visiva. 
+ Poiché questo effetto è dovuto alla bassa frequenza con cui sono "ravvivati" i fosfori sullo schermo, si è cercato di eliminarlo aumentando il frame rate; 
+ per fare questo, senza aumentare anche la larghezza di banda del segnale,
+  si è optato per il cosiddetto interlacciamento: ogni fotogramma al secondo viene suddiviso in due semiquadri,
+   ovvero vengono prima visualizzate solo le righe dispari dell'immagine, poi solo quelle pari. In questo modo, 
+   anche se ogni riga è aggiornata 25 (o 29,97) volte al secondo, come per esempio negli standard televisivi analogici PAL e NTSC, 
+   ogni zona dell'immagine è tracciata due volte,
+  quasi come se fossero scansionati 50 (PAL) o 59,94 (NTSC) fotogrammi al secondo.
+
+-------------------------------------------------------------------------------------------------------------------------------
+LA FREQUENZA DI AGGIORNAMENTO
+
+La frequenza d'aggiornamento (a volte semitradotto dall'inglese velocità di refresh),
+ refresh rate o frequenza verticale è il numero di volte in un secondo in cui viene ridisegnata l'immagine su un display.
+
+Una frequenza più alta risulta meno stancante per la vista.
+
+
+
+Non deve essere confuso con la frequenza dei fotogrammi perché la velocità di aggiornamento include anche la ripetizione della stessa immagine mentre la frequenza dei fotogrammi indica quante nuove immagini al secondo sono trasmesse da una sorgente.
+
+Inoltre la frequenza d'aggiornamento dello schermo può essere maggiore rispetto alle foto per secondo del video, mentre non è possibile apprezzare l'opposto dato che le immagini extra non verrebbero visualizzate allo schermo.
+
+Per esempio, un TV CRT a 100 Hz ha un'immagine più stabile di un TV catodico tradizionale perché la stessa immagine è ripetuta per 4 volte.
+
+---------------------------------------------------------------------------------------
+G SYNK
+
+G-Sync è una tecnologia di sincronizzazione adattiva proprietaria sviluppata da Nvidia. 
+Consiste in un modulo hardware, implementato nei monitor che ne fanno uso,
+ che consente allo stesso di sincronizzare la frequenza di aggiornamento con il numero di fotogrammi per secondo prodotti dalla scheda video. 
+ Questo processo serve per eliminare lo screen tearing, ovvero un problema di riproduzione dell'immagine per il quale il monitor mostra contemporaneamente più frame diversi sullo schermo,
+ producendo righe orizzontali che compromettono la fluidità del video.
+-----------------------------------------------------------------------------------------------
+
+Risoluzione:
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.softstore.it%2Faumentare-diminuire-risoluzione-video%2F&psig=AOvVaw3xY2wjx93F892Ar72pbice&ust=1610443581064000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDUsP_Hk-4CFQAAAAAdAAAAABAY
+---------------------------------------------------------------------------------------------------------------
+RAY TRACING
+
+
+
+Il ray tracing è una tecnica generale di geometria ottica che si basa sul calcolo del percorso fatto dalla luce, seguendone i raggi attraverso l'interazione con le superfici. 
+È usato nella modellazione di sistemi ottici, come lenti per fotocamere, microscopi,
+ telescopi e binocoli. Il termine viene utilizzato anche per un preciso algoritmo di Rendering nel campo della Computer grafica 3D, 
+ in cui le visualizzazioni delle scene, modellate matematicamente, 
+ vengono prodotte usando una tecnica che segue i raggi partendo dal punto di vista della telecamera oppure dalle sorgenti di luce.
+  Produce risultati simili al ray casting ed allo scanline rendering, 
+  ma semplifica alcuni effetti ottici avanzati, ad esempio un'accurata simulazione della riflessione e della rifrazione, 
+restando abbastanza efficiente da permetterne l'uso in caso si voglia ottenere un risultato di alta qualità.
+
+
+ ray tracing descrive un metodo per la produzione di immagini costruite in sistemi di computer grafica 3D, con maggior realismo di quello che si potrebbe ottenere con l'uso di ray casting o scanline rendering. Lavora tracciando, all'inverso, 
+ il percorso che potrebbe aver seguito un raggio di luce prima di colpire un'immaginaria lente. Mentre la scena viene attraversata seguendo il percorso di numerosi raggi, le informazioni sull'aspetto della scena vengono accumulate. La riflessione del raggio, la sua rifrazione o l'assorbimento sono calcolate nel momento in cui colpisce un qualsiasi oggetto.
+
+Le scene, nel ray tracing, vengono descritte matematicamente, solitamente da un programmatore, o da un grafico, 
+utilizzando particolari programmi.
+ Le scene possono anche includere immagini e modelli creati attraverso varie tecnologie, per esempio usando la fotografia digitale. Seguendo i raggi in senso inverso viene alleggerito di molto la complessità dell'algoritmo, il che rende possibile una precisa simulazione di tutte le possibili interazioni presenti nella scena. Questo è dovuto al fatto che la maggior parte dei raggi che parte da una sorgente non fornisce dati significativi all'occhio di un osservatore. Potrebbero invece rimbalzare finché si riducono al nulla, andare verso l'infinito o raggiungere qualche altra camera. Una simulazione che parta seguendo tutti i raggi emessi da tutte le sorgenti di luce non è fisicamente praticabile.
+
+La scorciatoia utilizzata nel raytracing, quindi,
+ presuppone che un dato raggio termini sulla camera, e ne cerca la sorgente.
+  Dopo aver calcolato un numero fisso di interazioni (già deciso in precedenza),
+   l'intensità della luce nel punto di ultima intersezione viene calcolata con un insieme di algoritmi, 
+   inclusi il classico algoritmo di rendering ed altre tecniche (come la radiosity).
+
+
+--------------------------------------------------------------------------------------------------------------
+
+CHE COSA è UN PIXEL
+
+Nell’ambito della computer grafica, il pixel è l’elemento più piccolo che compone un’immagine. Se nella stampa il pixel è il piccolo punto di inchiostro che, sovrapposto agli altri, va a formare l’immagine nella sua totalità, in ambito prettamente informatico il pixel può essere fatto coincidere con il piccolo diodo elettrico che, illuminandosi, compone l’immagine che compare poi sul tuo schermo
+
+
+RISOLUZIONE
+Nei pannelli che formano i display dei dispositivi elettronici citati in precedenza, i pixel non sono “sparsi alla rinfusa”, ma sono disposti in maniera ordinata in una matrice (o griglia) con un’altezza e una larghezza ben definite. I valori che assumono l’altezza e la larghezza di questa griglia è ciò che comunemente chiamiamo risoluzione dello schermo. Se, ad esempio, diciamo che il nostro nuovo smartphone ha una risoluzione di 1920×1080 pixel, vuol dire che il display è composto da 1920 colonne e 1080 righe, per un totale di circa 2 milioni di pixel (o megapixel che dir si voglia)
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fnosignalservice.it%2Fhd-4k-oled-e-qled-differenze-e-come-scegliere-la-tv%2F&psig=AOvVaw0ogbJxwxaEMUGuUSZzTog3&ust=1610444919681000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiLpP3Mk-4CFQAAAAAdAAAAABAX
+
+
+----------------------------------------------------------------------------------------------------------------
+
+LE PORTE INPUT E OUTPUT VIDEO
+
+La porta video collegata alla scheda video permette di collegare il monitor. 
+Possono essere:
+VGA (Video Graphics Array): impiegata su tutti i PC fin dal 1987 e su molti altri computer per connessioni video di tipo analogico; ideata per connettere il monitor al computer, in questi ultimi anni è stata sostituita dalle porte DVI.
+DVI (Digital Visual Interface): presente sulla maggior parte dei PC, questa connessione consente il trasporto sia di un segnale analogico che di uno digitale, anche contemporaneamente. Il segnale digitale può essere single link o dual link.
+
+È importante tener presente che le porte VGA e DVI saranno sostituite entro cinque anni dalle porte HDMI e DisplayPort.
+HDMI (High-Definition Multi-media Interface, ovvero interfaccia multimediale ad alta definizione): utilizzata per dispositivi video HD digitali, trasporta video digitale fino alla risoluzione 1080p nella versione single link. La segnalazione video è compatibile con quella DVI-D ma sul canale I²C viene codificato anche l'audio digitale multicanale. L'HDMI è incluso in sempre maggior misura nei nuovi PC ed è pensato per collegare facilmente dispositivi elettronici di consumo. 
+DisplayPort dovrebbe diventare l'unica uscita video PC permonitor e proiettori. Display Port: sostituirà il connettore DVI e trasporta video digitale fino alla risoluzione 2560 x 1600 e audio multicanale). Tale standard definisce una tipologia di connessione audio/video digitale destinata ad essere utilizzata principalmente nella connessione fra computer e monitor, o fra computer e sistemi Home Theater.
+
+
+
+
+
+no
+!
+!
+!
+>
+
+CHe cosa è il gaming
+
+
+Il videogioco è un gioco gestito da un dispositivo elettronico che consente di interagire con le immagini di uno schermo. Il termine generalmente tende a identificare un software, ma in alcuni casi può riferirsi anche a un dispositivo hardware dedicato a uno specifico gioco. Il termine inglese corretto è video game.
+ Colui che utilizza un videogioco viene chiamato videogiocatore o gamer ("giocatore" in inglese) e si serve di una o più periferiche di input chiamate controller, come per esempio il gamepad, il joystick, il mouse, la tastiera e il mouse di un computer.
+L'azione di giocare con dispositivi elettronici assume il nome di GAMING.
+
+
+---------------------------------------------------------------------
+Il termine display venne usato per la prima volta nel 1945 (radar), ma poi venne usato bene nel 1960 per indicare i monitor veri
+
+I display sono stati sviluppati inizialmente per visualizzare testo e segnali, fino ad evolversi progressivamente per la visualizzazione di grafica a colori e video 3D.
+
+I primi tipi di display a larga diffusione erano elettromeccanici, usavano dispositivi a solenoide per controllare meccanismi a palette e visualizzare del testo, così come avveniva per esempio nei tabelloni della borsa valori o dell'orario di partenza-arrivo di aerei e treni. Successivamente i sistemi elettromeccanici sono stati soppiantati da dispositivi a 
+tubo catodico e a filamento,[4] poi dai cristalli liquidi (LCD) e dispositivi a stato solido come LED e OLED.
+Lo schermo a tubo catodico, o schermo CRT[1], è un tipo di schermo ormai caduto in disuso a causa dell’introduzione, a partire dall'inizio del XXI secolo, degli schermi al plasma e a cristalli liquidi (LCD). Quando è utilizzato per applicazioni video (ad esempio per realizzare schermi e televisori) è anche chiamato cinescopio.
+
+Lo schermo a tubo catodico è sostanzialmente un tubo a raggi catodici nel quale, per formare le immagini, i fasci di elettroni sono convogliati ad hoc su una superficie fotosensibile frontale. Parametro fondamentale di uno schermo a tubo catodico è la dimensione dell'area su cui sono visualizzate le immagini normalmente indicata con la diagonale dell'area e misurata in pollici.

@@ -148,7 +148,29 @@ img{
     width: 20%; 
     border-radius: 20px;
 }
-
+@media screen and (max-width: 1400px) {
+	.responsive {
+        display: flex;
+        flex-direction: column;
+    }
+    .left_bottom{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 100%;
+    }
+    .left_img{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 100%;
+    }
+    img{
+        height: auto;
+        width: 50%; 
+        margin: 4%;
+    }
+}
 
 @media screen and (max-width: 1800px) {
     .text{

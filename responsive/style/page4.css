@@ -49,7 +49,6 @@ body{
     margin-left: 1%;
     box-shadow: 10px 10px 5px #082ed6;
     align-items: center;
-    border-radius: 20px;
 }
 
 .imgright {
@@ -71,5 +70,4 @@ body{
 img{
     width: 70%;
     height: auto;
-    
 }

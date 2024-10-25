@@ -1,0 +1,86 @@
+*{
+    color: rgb(20, 21, 119);
+    font-family: 'Indie Flower';
+
+    
+}
+
+::selection   {
+	background: none;
+	color: none;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* NavBar */
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0.5%;
+
+    height: 60px;
+}
+
+.cont-nav{
+    margin: 1%;
+
+    width: 100%;
+}
+
+a.nav{
+    width: 10%;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+a.nav:hover{
+    zoom: 130%;
+    transform: scale(1.05);
+    transition: transform .2s; 
+
+}
+
+/* Font */
+@font-face {
+  font-family: 'Indie Flower';
+  src: url(font/IndieFlower-Regular.ttf);
+}
+
+/* Diritti */
+div.diritti{
+	text-align: center;
+    font-size: 20px;
+	
+    margin-bottom: 0px;
+
+    padding-top: 5px;
+	
+	background-color: rgba(128, 125, 125, 0.486);
+}
+
+p.diritti{
+	padding: 10px;
+	line-height: 25px;
+}
+
+p.logo_diritti{
+	border: 1px solid black;
+	padding: 0.5%;
+
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 1%;
+}

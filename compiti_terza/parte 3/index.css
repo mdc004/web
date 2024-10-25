@@ -1,0 +1,31 @@
+div.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    line-height: 20px;
+
+    margin-top: 15%;
+
+}
+
+h1.welcome, h2.welcome{
+    width: 100%;
+
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+h1.welcome{
+    font-size: 80px;
+    
+    padding: 0%;
+}
+
+h2.welcome{
+    font-style: italic;
+
+    padding: 0%;
+}

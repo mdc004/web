@@ -1,0 +1,99 @@
+
+h1.welcome{
+    width: 100%;
+
+    text-align: center;
+}
+
+h1.welcome{
+    font-size: 60px;
+    
+    padding: 0%;
+}
+
+a.titolo{
+    text-decoration: none;
+}
+
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1%;
+    margin: 1%;
+    width: 70%;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 2%;
+    padding-right: 2.5%;
+    margin: 2%;
+
+    border: 2px solid rgba(20, 22, 119, 0.288);
+}
+
+h1.titolo{
+    width: 100%;
+
+    font-size: 35px;
+    font-style: italic;
+    text-align: left;
+}
+
+h2.titolo{
+    font-size: 30px;
+}
+
+p.contenuto{
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2.menu{
+    font-style: italic;
+    font-size: 28px;
+}
+
+ul.menu{
+    list-style: none;
+    
+    line-height: 60px;
+}
+
+li.menu{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+li.menu:hover{
+    background-color: rgba(212, 212, 206, 0.377);
+        transform: scale(1.05);
+    transition: transform .2s; 
+
+}
+
+a.menu{
+    text-decoration: none;
+}
+
+.ccc{
+    font-size: 50px;
+    padding: 2%;
+}
+

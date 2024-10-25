@@ -1,0 +1,88 @@
+
+h1.welcome{
+    width: 100%;
+
+    text-align: center;
+}
+
+h1.welcome{
+    font-size: 60px;
+    
+    padding: 0%;
+}
+
+a.titolo{
+    text-decoration: none;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 1%;
+}
+
+h1.titolo{
+    width: 100%;
+
+    font-size: 35px;
+    font-style: italic;
+    text-align: left;
+}
+
+h2.titolo{
+    font-size: 30px;
+}
+
+p.contenuto{
+    font-size: 20px;
+    text-align: justify;
+
+    padding: 2%;
+}
+
+div.riga{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p.riga{
+    padding: 0%;
+    padding-right: 5%;
+    margin: 0%;
+    
+    text-align: right;
+    font-size: 20px;
+
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+img{
+    width: auto;
+    height: 200px;
+
+    margin: 1%;
+}
+
+.tabella{
+    height: 500px;
+    width: auto;
+}
+
+ul.ean{
+    list-style-type: lower-roman;
+
+    padding: 0%;
+    margin: 0%;
+}
+
+.big{
+    width: auto;
+    height: 100px;
+}

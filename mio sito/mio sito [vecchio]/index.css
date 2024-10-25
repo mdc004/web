@@ -1,0 +1,91 @@
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: #236AB9 ;
+		color: black;
+		margin-left: 0px;
+		margin-right: 0px;
+		font-family:"Comic Sans MS";
+	}
+	
+	#margini {	
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+	
+	.navul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #341C09;
+		position: sticky;
+		top: 0;
+		width: 100%;
+
+	}
+
+	.navli {
+		float: left;
+	}
+
+	.navli {
+		display: block;
+		color: #D4E4F7;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+			
+	.navli:hover {
+		color: black;
+		background-color: #D4E4F7;
+	}
+	
+	.colonna {
+		float: left;
+		padding: 10px;
+
+	}
+
+	.lato {
+		width: 14%;
+		background-color: #A75D25;
+		color: #341C09;
+	}
+
+	.centro {
+		margin-right:10px;
+		margin-left: 10px;
+		width: 70%;
+		background-color: #D4E4F7;
+		color: #341C09;
+	}
+
+	.row:after {
+		display: table;
+		clear: both;
+	}
+
+	#diritti {
+		background-color: #F1F1F1;
+		text-align: center;
+		padding: 10px;
+	}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

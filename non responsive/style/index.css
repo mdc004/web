@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+}
+
+@font-face {
+	font-family: 'Dancing Script';
+	src: local('ArmWrestler Bold'), url('../font/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Courgette';
+	src: local('ArmWrestler Bold'), url('../font/Courgette-Regular.ttf') format('truetype');
+}
+
+.bottone {
+    float:center;
+}
+
+::selection{
+    background-color: none;
+}  
+
+body{
+    background-image: url(../images/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Prima barra blu*/
+.base{
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 1%;
+    background-color: #110952;
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 8%;
+    box-shadow: 10px 10px 5px #868484;
+}
+.title{
+    font-family: 'Courgette';
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.crediti{
+    text-align: center;
+    font-family: 'Dancing Script';
+    width: 100%;
+    font-size: 25px;
+    margin: 1%;
+}
+
+div.presentazione{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+img.presentazione {
+    margin: 1%;
+    width: 30%;
+    box-shadow: 10px 10px 5px #868484;
+    border-radius: 20px;
+}
+
+/* Bottone */
+div.bottone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.bottone{
+    text-decoration: none;
+    color: white;
+    background-color: #110952;
+    font-family: 'Dancing Script';
+    padding: 2.5%;
+    padding-top: 2%;
+    border-radius: 8%;
+    box-shadow: 10px 10px 5px #868484;
+}
+
+a.bottone:hover{
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+a.bottone:not(hover){
+    transition: 0.5s;
+}

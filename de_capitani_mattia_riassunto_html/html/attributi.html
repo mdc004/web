@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/base.css">
+    <link rel="stylesheet" type="text/css" href="../style/varie_html.css">
+    <meta http-equiv="refresh" content="">
+    <title>Gli Attributi</title>
+</head>
+<body>
+    
+    <div class="base">
+        <h1 class="titolo">Gli attributi</h1>
+      
+        <p>
+            Ora che abbiamo imparato a fare i nostri primi titoli e paragrafi è giunto il momento di modificarli, renderli più belli, per questo utilizziamo gli attributi
+            Questi ultimi servono quindi a modificare lo stile del nostro documento, possiamo così cambiare il colore, il font, la grandezza lo sfondo...
+        </p>
+        
+        <p> 
+            Prendiamo, quindi un titolo e un paragrafo e coloriamoli di verde!<br>
+            Per farlo sarà necessario scrivere all'interno del tag body, se vogliamo cambiarlo a tutte le scritte della pagina, oppure all'interno di uno o più tag, nel caso in 
+            cui non volessimo cambiarlo a tutto il sito, in questo caso scriveremo nel body: <b>style="color: green;"</b>, nel caso in cui avessimo voluto farli blu ci sarebbe bastato
+            scrivere "blue" oppure copiare il codice rgb o esadecimale corrispondente alla tonalità scelta.
+        </p>
+        
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>prova1<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body style="color: green;">
+            <<span>*</span>h1>Il mio primo sito<<span>*</span>/h1>
+            <<span>*</span>p>Lorem ipsum dolor sit amet...<<span>*</span>/p>
+        <<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+        
+        <p>   
+            Per vedere il risultato ci basterà eseguire il procedimento spiegato la <a href="struttura.html">scorsa lezione</a>.<br>
+            Ora procediamo con il cambiare il colore dello sfondo del titolo, per farlo ci dovremo recare nel tag h1 e scrivere <b>style="background-color: light-blue;"</b>, ovviamente 
+            al posto di "light-blue" potremo scrivere un qualsiasi altro colore.
+        </p>
+        
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>prova1<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body style="color: green;">
+            <<span>*</span>h1 style="background-color: light-blue;">
+                Il mio primo sito
+            <<span>*</span>/h1>
+            <<span>*</span>p>Lorem ipsum dolor sit amet...<<span>*</span>/p>
+        <<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+       
+    <p id="risultato">il risultato:</p>
+
+    <center><img src="../images/tit_e_par_colorato.jpg"></center>
+        <p>
+            Altri attributi possono essere font-family (carattere), font-size (grandezza dei caratteri), font-weight (grassetto), width (larghezza), height (altezza)...<br>
+            Puoi trovare un elenco "semi completo" <a href="https://developer.mozilla.org/it/docs/Web/HTML/Attributi">qui</a>
+        </p>
+        
+        
+
+        <p>
+            Possiamo però sviluppare una "formula universale" per gli attributi:
+        </p>
+
+    <p class="codice">
+    <<span>*</span>tag style="attributo: valore;"><<span>*</span>/tag>
+    Dove "valore" può essere, nel caso di attributi come:
+        - padding e width, un numero seguito da "px", "%", "em"
+        - font-family, il nome dei caratteri scelti
+        - color e background-color, un colore o un codice colore
+        - dislpay, una caratteristica come block, inline, inherit
+    </p>
+        
+        <a href="../indice.html"><p id="bottone">Indice</p></a>
+    </div>
+</body>
+</html>

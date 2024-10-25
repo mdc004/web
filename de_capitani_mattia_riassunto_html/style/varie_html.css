@@ -1,0 +1,39 @@
+div.li{
+    margin-left: 70px;
+    width: 70%;
+}
+
+.codice{
+    border: 2px dashed darkblue;
+    max-width: 60%;
+    width: max-content;
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre;
+}
+
+#prova{
+    width: 300px;
+    height: auto;
+}
+
+#risultato{
+    margin-left: 22%;
+}
+
+span{
+    display: none;
+}
+
+hr{
+    border: 1px solid darkblue;
+    width: 40%;
+
+}
+
+
+

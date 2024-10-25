@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/base.css">
+    <link rel="stylesheet" type="text/css" href="../style/varie_html.css">
+    <meta http-equiv="refresh" content="">
+    <title>La struttura</title>
+</head>
+<body>
+    
+    <div class="base">
+        <h1 class="titolo">Struttura di un programma in html</h1>
+        
+        <!--Il testo barrato l'ho inserito per renderlo il più possibile simile ad un quaderno-->
+        <p>
+            Come detto in <del>prima</del> precedenza html è formato da attributi e tag, tre di questi ultimi sono quelli fondamentali, che in una pagina <del>html</del> non possono mai mancare, 
+            a prescindere da tutto il resto e sono html,head e body.
+            <div class="li">Il tag html (<<span>*</span>html><<span>*</span>/html>) è la base all'interno della quale sciveremo il codice per la pagina</div><br>
+            <div class="li">Il tag head (<<span>*</span>head><<span>*</span>/head>) è il tag che contiene le informazioni sul documento</div><br>
+            <div class="li">Il tag body (<<span>*</span>body><<span>*</span>/body>) è la pagina vera e propria, al interno della quale c'è il contenuto del sito</div>
+        </p>
+        
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head><<span>*</span>/head>
+        <<span>*</span>body><<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+
+        <p> 
+            Altri tag non essenziali, ma altrettanto importanti sono: "p" per i paragrafi, "Hn" per i titoli, dove "n" va da 1 a 6, al contrario di quanto si possa pensare con "n"
+            uguale a 1 otterremo un titolo grande, invece con "n" uguale a 6 otteremmo un titolo piccolo; poi ci sono i tag di selezione ovvero il "div" e lo "span", quest'ultimo per selezionare piccole parti come parole.
+        </p>
+        
+        <p>   
+            Ora che conosciamo i tag principali possiamo procedere con la creazione della nostra prima pagina, apriamo quindi l'editor di testo, andiamo su file>nuovo, poi di nuovo su file>salva come e 
+            chiamiamo il nostro file index e diamogli un'estensione .html.<br> 
+            Arrivati a questo punto possiamo cominciare a scrivere, come prima cosa bisogna aprire e chiudere i tag base, ovvero html head e body, per rendere la pagina più ordinata andremo a capo 
+            gno volta che apriremo uno di questi tag.
+            Come detto prima all'interno del <del>documento</del> tag Head vanno le informazioni della pagina, tra le quali il titolo, per dare un intestazione alla nostra pagina ci basta servirci del tag "title"
+            all'interno del quale potremo scrivere ciò che più ci aggrada, in questo caso scriveremo "prova1".
+        </p>
+
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>prova1<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body><<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+
+        <p>
+            Per vedere il risultato <del>sarà sufficiente</del> dobbiamo salvare andando su file>salva oppure premento i tasti "ctrl" più "s" su windows e "cmd" più "s" su mac, 
+            dopodiche sarà sufficiente ridurre a icona l'editor e recarci dove abbiamo salvato il file, a questo punto non dobbiamo fare altro che aprirlo, essendo salvato come file html ci si presenterà davanti una finestra aperta attraverso il browser predefinito sul nostro computer.<br>
+        </p>
+        
+        <center><img id="prova" src="../images/prova1.jpg"></center>
+
+        <p>
+            Ora però è giunto il momento di aggiungere un titolo e qualche paragrafo, quindi riduciamo a icona la scheda appena aperta e torniamo all'editor, ci spostiamo all'interno del body e apriamo il tag h seguito da un
+            numero compreso tra 1 e 6 a seconda della grandezza che preferiamo, in questo caso scriveremo 3 secuito dal ">", ora dobbiamo decidere Un titolo da scrivere, essendo la prima pagina che facciamo metterò
+            "Il mio primo sito" infine scriviamo il tag di chiusura.<br>
+            Per fare, poi, un paragrafo apriamo e chiudiamo il tag "p" e al suo interno scriviamo qualcosa, in questo caso userò un generatore di testo "<a href="https://www.lipsum.com/">Lorem Ipsum</a>"
+        </p>
+        
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>prova1<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body>
+            <<span>*</span>h1>Il mio primo sito<<span>*</span>/h1>
+            <<span>*</span>p>Lorem ipsum dolor sit amet...<<span>*</span>/p>
+        <<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+
+        <p>
+            Per visualizzarlo dobbiamo fare, più o meno, lo stesso procedimento di prima: salvare, riaprire la finestra del browser e riaggiornare la pagina premendo
+            la rotellina dopo la freccia avanti (in alto a sinistra) oppure premendo "f5"
+        </p>
+        
+        <center><img id="prova" src="../images/tit_e_par.jpg"></center>
+        
+        <a href="../indice.html"><p id="bottone">Indice</p></a>
+    </div>
+</body>
+</html>

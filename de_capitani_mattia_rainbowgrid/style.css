@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+::selection {
+    background-color: null;
+}
+
+
+*{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+body{
+    background-color: rgb(43, 106, 223);
+}
+
+#title{
+    color: white;
+}
+
+.table{
+    transition: 500ms;
+}
+
+td.table{
+    width: 30px;
+    height: 30px;
+
+    margin: 5px;
+
+    border: 1px solid black;
+    border-radius: 10%;
+
+    transition: 500ms;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ins{
+    width: 80px;
+    height: 60px;
+
+    font-size: 30px;
+    
+    margin: 5%;
+    padding: 10%;
+    
+    border: 2px dashed rgba(10, 81, 173, 0.555);
+
+    background-color: rgba(143, 185, 241, 0.5);
+}
+
+input[type=number]:focus{
+    border: 2px dashed rgba(10, 81, 173, 0.555);
+    
+    background-color: rgba(143, 185, 241, 0.5);
+
+    text-align: center;
+}
+
+#submit{
+    margin: 5%;
+    padding: 6%;
+
+    width: 60px;
+    
+    border: 2px dashed rgba(10, 81, 173, 0.555);
+    border-radius: 30%;
+
+    background-color: rgba(143, 185, 241, 0.5);
+}
+
+.container-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3%;
+
+    padding: 3%;
+    /* padding-bottom: 1%; */
+
+    border: 2px dashed rgba(10, 81, 173, 0.555);
+    
+    background-color: white;
+}
+
+.conferma{
+    margin-top: 8%;
+
+    border: 2px dashed rgba(10, 81, 173, 0.555);
+    border-radius: 30%;
+
+    background-color: rgba(85, 132, 194, 0.281);
+}

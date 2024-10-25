@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/base.css">
+    <link rel="stylesheet" type="text/css" href="../style/varie_html.css">
+    <meta http-equiv="refresh" content="">
+    <title>La struttura</title>
+</head>
+<body>
+    
+    <div class="base">
+        <h1 class="titolo">Come scrivere css interni ed esterni</h1>
+
+        <p> 
+            I CSS esterni ed interni hanno la stessa sintassi, cambia solo la posizione di questi, vediamo ora come inserirli nel nostro sito:<br><br>
+            Per i CSS interni ci basterà recarci nell' "head" e aprire e chiudere il tag "style", all interno di questo andremo a scrivere il nome della categoria di tag 
+            a cui vogliamo fare una modifica, separando un tag dall'altro con la virgola, infine non ci resta che aprire e chiudere le graffe e scrivere le stessa cose charset
+            avremmo scritto nel css in linea, quindi: attributo:valore;
+        </p>
+        
+    <p class="codice">
+        <<span>*</span>html>
+            <<span>*</span>head>
+                <<span>*</span>style>
+                    tag {
+                        attributo: valore;
+                    }
+                <<span>*</span>/style>
+            <<span>*</span>/head>
+            <<span>*</span>body><<span>*</span>/body>
+        <<span>*</span>/html>
+    </p>   
+
+        <p> 
+            La sintassi per i css esterni è uguale identica, ma senza il tag "style", tuttavia il procedimento per crearli e lincarli alla pagina è un pochino più completto,
+            però ci mermetterà di ottenere un lavoro di gran lunga più ordinato.<br>
+            Procediamo quindi creando un nuovo file, ma con estensione ".css", dopodiché ci dobbiamo recare nell' "head" del documento al quale vogliamo collegare i
+            Css e scriviamo il seguente tag:
+        </p>
+
+    <p class="codice">
+     <<span>*</span>link rel="stylesheet" type="text/css" href="percorso/nome_file.css">     
+    </p>
+        
+        <p>   
+            Fatto ciò potremo recarci nel nostro file con estensione ".css" e inizare a cambiare lo stile del nostro sito.
+        </p>
+
+    <p class="codice">
+        tag {
+            attributo: valore;
+        }
+    </p> 
+    
+    <p>   
+        I CSS, quindi, modificano lo stile di un tag o di un gruppo di tag, purchè dello stesso tipo, ma nel caso in cui noi volessimo modificare il colore di due soli 
+        paragrafi e non di tutti quelli della pagina come dovremmo fare?<br>
+        Per questo ci vengono in aiuto classi e id, infatti se andremo a inserire l'attributo "class" o l'attributo "id" potremo andare a modificare, all'interno dei css
+        solo i tag che sono hanno un "id" o una "class" di un determinato tipo; la sintassi e la seguente:
+    </p>
+    
+    <p class="codice">
+        Nell' HTML:
+            <<span>*</span>tag class="nome_classe">
+        
+        Nel CSS:   
+                .nome_classe {
+                    attributo: valore;
+                }
+
+        Nel' HTML:
+            <<span>*</span>tag id="nome_id">
+        
+        Nel CSS:       
+                #nome_id {
+                    attributo: valore;
+                }
+    </p>   
+        <a href="../indice.html"><p id="bottone">Indice</p></a>
+    </div>
+</body>
+</html>

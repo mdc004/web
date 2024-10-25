@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/base.css">
+    <link rel="stylesheet" type="text/css" href="../style/varie_html.css">
+    <meta http-equiv="refresh" content="">
+    <title>Tabelle</title>
+</head>
+<body>
+    
+    <div class="base">
+        <h1 class="titolo">Tabelle</h1>
+        
+        <!--Il testo barrato l'ho inserito per renderlo il più possibile simile ad un quaderno-->
+        <p>
+            Un altro argomento fondamentale di html sono le tabelle, sono principalmente formate da 3 tag:
+            <div class="li">"table" che è la bese di una tabella</div><br>
+            <div class="li">"tr" per fare una riga</div><br>
+            <div class="li">"th" o "td" per una colonna con un titolo o no</div><br>
+            
+        </p>
+        
+        <p> 
+            Per creare quindi una tabella con due righe e tre colonne dobbiamo scrivere il seguente codice:
+        </p>
+        
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>Tabelle<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body>
+            <<span>*</span>table>
+                <<span>*</span>tr>
+                    <<span>*</span>td>1<<span>*</span>/td>
+                    <<span>*</span>td>2<<span>*</span>/td>
+                    <<span>*</span>td>3<<span>*</span>/td>
+                <<span>*</span>/tr>
+                <<span>*</span>tr>
+                    <<span>*</span>td>4<<span>*</span>/td>
+                    <<span>*</span>td>5<<span>*</span>/td>
+                    <<span>*</span>td>6<<span>*</span>/td>
+                <<span>*</span>/tr>
+            <<span>*</span>/table>
+        <<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+
+    <p id="risultato">il risultato:</p>
+
+    <center><img src="../images/tab_1.jpg"></center>
+    
+    <br><hr><br>
+    <p>   
+        Per mettere un bordo blu inseriamo nello "style" dei tag "table" "tr" "th" "td" il seguente codice:
+    </p>
+
+    <p class="codice">
+    border: 2px solid blue
+    </p>
+    
+    <p id="risultato">il risultato:</p>
+    
+    <center><img src="../images/tab_2.jpg"></center>
+    <br><hr><br>
+    <p>   
+        Proviamo ora a togliere lo spazio fra le varie celle, inserendo nello "style" dei tag "table" "tr" "th" "td" il seguente codice:
+    </p>
+        
+    <p class="codice">
+    border-collapse: collapse;
+    </p>      
+        
+        <p id="risultato">il risultato:</p>
+
+        <center><img src="../images/tab_3.jpg"></center>
+        
+        <a href="../indice.html"><p id="bottone">Indice</p></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+::selection{
+    color: black;
+    background-color: white;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeue-Regular.ttf');
+}
+:root{
+    --fontSize: 36px;
+}
+*{
+    font-family: 'Bebas Neue';
+    color: rgba(200, 197, 197, 0.767);
+    font-size: large;
+    
+}
+
+button{
+    margin: 1%;
+    color: rgb(42, 41, 41);
+}
+
+body{
+    background-color: rgb(42, 41, 41);
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    cursor: pointer;
+
+    margin: 2%;
+    padding: 5px;
+
+    border: 0px;
+    border-radius: 5px;
+
+    animation: sfondo_genera 4s ease infinite;
+    
+    font-size: var(--fontSize);
+}
+
+@keyframes sfondo_genera {
+    0% {background-color: rgba(208, 208, 214, 0.753);}
+    25% {background-color: rgba(167, 167, 177, 0.753);}
+    50% {background-color: rgba(129, 129, 134, 0.753);}
+    100% {background-color: rgba(208, 208, 214, 0.753);}
+}
+
+@keyframes spin { 
+    100% { 
+        transform: rotateZ(360deg);
+    }
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 5%;
+    width: 100%;
+}
+
+#step2{
+    visibility: hidden;
+}
+
+#step2ok{
+    visibility: hidden;
+}
+
+label{
+    margin: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: var(--fontSize);
+}
+
+input{
+    background-color: rgba(240, 248, 255, 0.286);
+    border: 3px solid white;
+    
+    padding: 4px;
+    margin: 2%;
+    color: rgb(42, 41, 41);
+    font-size: var(--fontSize);
+}
+
+option, select{
+    color: rgb(42, 41, 41);
+    font-size: var(--fontSize);
+}
+
+.flexboxizzami{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgba(200, 197, 197, 0.767);
+
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    margin: 1%;
+}
+
+#step3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 2%;
+    width: 100%;
+}
+
+p:hover{
+    border: 2px solid rgba(200, 197, 197, 0.767);
+    padding: 6px;
+}
+
+p{
+    padding: 8px;
+}
+
+#time{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: var(--fontSize);
+}
+
+#who{
+    font-size: 72px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+

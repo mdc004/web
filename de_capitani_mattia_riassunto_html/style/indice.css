@@ -1,0 +1,110 @@
+*{
+    font-family: "Indie Flower"; 
+}
+
+::selection   {
+	background: none;
+	color: rgb(45, 136, 167);
+}
+
+@font-face {
+	font-family: 'Indie Flower';
+	src: local('ArmWrestler Bold'), url('../font/IndieFlower-Regular.ttf') format('truetype');
+    }
+
+body{
+    background-image: url(../images/pattern.jpg);   /* prendi pattern da ps, questo è di prova*/
+    color: darkblue;
+    margin: 20px;
+    line-height: 10px;
+}
+
+#bottone{
+    text-decoration: none;
+    color: darkblue;
+    display: inline-block;
+    font-size: 30px;
+    border: 2px solid darkblue;
+    height: auto;
+    width: auto;
+    padding: 9px;
+    padding-top: 9px;
+    margin-left: 90%;
+    font-weight: bold;
+}
+
+
+/* Intestazione */
+div.intestazione{
+    text-align: center;
+    top:0;
+    color: white;
+    
+}
+
+h1.intestazione{
+    font-size: 110px;
+    
+}
+
+h2.intestazione{
+    font-size: 110px;
+    line-height: 40px;
+
+}
+
+h3.intestazione{
+    font-size: 110px;
+    line-height: 40px;
+}
+
+/* Indice */
+.base{
+    background-color:rgba(255, 255, 255, 0.849);
+    padding: 10px;
+    text-align: center;
+    height: 855px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 40px;
+    
+}
+
+#margine{
+    padding-left: 10%;
+}
+
+.colonna{
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    padding: 15px;
+    margin-left: 7%;
+    
+}
+
+h1.titolo{
+    font-size: 60px;
+}
+
+
+h2.titolo{
+    font-size: 50px;
+}
+
+li{
+    font-size: 45px;
+    margin-left: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+
+}
+
+a:hover{
+    color: blue;
+}
+

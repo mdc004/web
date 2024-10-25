@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/base.css">
+    <link rel="stylesheet" type="text/css" href="../style/varie_html.css">
+    <meta http-equiv="refresh" content="">
+    <title>Le Liste</title>
+</head>
+<body>
+    
+    <div class="base">
+        <h1 class="titolo">Le Liste</h1>
+        
+        <!--Il testo barrato l'ho inserito per renderlo il più possibile simile ad un quaderno-->
+        <p>
+            Le liste su html sono i classici elenchi su word.<br>
+            Come prima cosa, però, dobbiamo fare una distinzione fra due tipi di liste:
+            <div class="li">Liste ordinate [order list], ovvero liste numeriche, contassegnate dal tag "ol".</div><br>
+            <div class="li">Liste non ordinate [unorder list], ovvero le classiche liste con dischi o quadratini, contassegnate dal tag "ul".</div><br>
+            
+        </p>
+        
+        <p> 
+            Creare una lista è molto semplice, inanzitutto dobbiamo decidere se farla ordinata o non ordinata, scrivendo rispettivamente "ol" e "ul", ogni elemento della lista, indipendentemente se numerica
+            o non deve esere inserito nel tag "li".
+        </p>
+        
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>Liste<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body>
+            <<span>*</span>ol>
+            <<span>*</span>li>elemento<<span>*</span>/li>
+            <<span>*</span>li>elemento<<span>*</span>/li>
+            <<span>*</span>li>elemento<<span>*</span>/li>
+            <<span>*</span>/ol>
+        <<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+
+    <p id="risultato">il risultato:</p>
+
+    <center><img src="../images/ol.jpg"></center>
+    
+    <hr>
+    
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>Liste<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body>
+            <<span>*</span>ul>
+            <<span>*</span>li>elemento<<span>*</span>/li>
+            <<span>*</span>li>elemento<<span>*</span>/li>
+            <<span>*</span>li>elemento<<span>*</span>/li>
+            <<span>*</span>/ul>
+        <<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>
+    
+        <p id="risultato">il risultato:</p>
+    
+        <center><img src="../images/ul.jpg"></center>
+        <p>   
+            Gli attributi più utilizzati nelle liste sono "list-type-style" per modificare lo stile della lista , può assumere il valore di disc square... un altro attributo
+            utile per le liste è "display" che impostato un "inline" può mettere in orizzontale gli elementi della lista.
+        </p>
+        
+    <p class="codice">
+    <<span>*</span>html>
+        <<span>*</span>head>
+            <<span>*</span>title>Liste<<span>*</span>/title>
+        <<span>*</span>/head>
+        <<span>*</span>body>
+            <<span>*</span>ul style="list-type-style: disc;">
+            <<span>*</span>li style="dislpay: inline;">elemento<<span>*</span>/li>
+            <<span>*</span>li style="dislpay: inline;">elemento<<span>*</span>/li>
+            <<span>*</span>li style="dislpay: inline;">elemento<<span>*</span>/li>
+            <<span>*</span>/ul>
+        <<span>*</span>/body>
+    <<span>*</span>/html>
+    </p>      
+        
+        <p id="risultato">il risultato:</p>
+
+        <center><img src="../images/disc_inline.jpg"></center>
+        
+        <a href="../indice.html"><p id="bottone">Indice</p></a>
+    </div>
+</body>
+</html>

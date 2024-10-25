@@ -1,0 +1,111 @@
+@import url("montserrat-font/Montserrat.css");
+
+.navbar-brand {
+    width: fit-content;
+    height: 100%;
+    background-color: #cc0000;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.titoli{
+    flex-grow: 1;
+}
+
+.cta-home{
+    bottom: 0;
+}
+
+.altezza-massima{
+    height: 100%;
+}
+
+.spazio{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.spazio-bottom{
+    margin-bottom: 10px;
+}
+
+.landing{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+body{
+    background-image: url('pictures/sfondo.png') !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+    height: 100% !important;
+}
+
+.card-notizia{
+    border: 2px solid #2A68AF;
+}
+
+.navbar{
+   background-color: #2A68AF !important;
+}
+
+ul.navbar-nav{
+    color: white !important;
+}
+
+.footer{
+    background-color: #2A68AF !important;
+    border-radius: 0px;
+    color: white !important;
+    margin-bottom: 0px;
+}
+
+.nav-link-footer{
+    display: block;
+    color: lightgray !important;
+}
+
+.nav-link-footer:hover{
+    color: white !important;
+}
+
+.fondo{
+    bottom: 0 !important;
+}
+
+.margin-bottom{
+    margin-bottom: 60px;
+}
+
+.card-header{
+    background-color: #2A68AF !important;
+    color: white !important;
+}
+
+.link-contrasto{
+    color: white !important;
+}
+
+.row{
+    margin-bottom: 20px !important;
+}
+
+.card-footer, .card-body {
+    padding-bottom: 0px !important; 
+}
+
+.card {
+    line-height: 1;
+}
+
+.footer-logo {
+    border-radius:5px;
+    border: 1px solid white;
+}
+
+.footer-logo:hover {
+    border: 1px solid lightgray;
+    opacity: 0.8;
+}

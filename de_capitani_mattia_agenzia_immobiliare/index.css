@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D4E4F7;
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family:"Verdana";
+}
+
+h1 {
+    font-family: Algerian;
+    font-size: 99px;
+    color: #341C09;
+    text-align: center;
+}
+
+h3.pres {
+    text-align: center;
+}
+
+table, td, tr {
+    border-collapse: collapse;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    width: 300px;
+}
+
+#testot {
+    text-align: justify;
+}
+
+#news {
+    line-height: 22px;
+}
+
+#newsletter {
+    font-style: italic;
+}
+
+#ricerca {
+    font-style: italic;
+}
+
+#presentazione_1 {
+    width: auto;
+    height: 250px;
+}
+
+#presentazione_2 {
+    width: auto;
+    height: 300px;
+}
+
+#logo {
+    width: 500px;
+    height: auto;
+}
+
+#logodiritti {
+    width: 300px;
+    height: auto;
+}
+
+#margini {	
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#casa {
+    width: 13%;
+}
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a2a9ab;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navli {
+    border-right: 1px solid #bbb;
+    float: left;
+    width: 8%;
+    
+}
+
+.navli a {
+    display: block;
+    color: #484b4d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+        
+.navli a:hover {
+    color: black;
+    background-color: #cccac6;
+}
+
+.servizi {
+    line-height: 22px;
+}
+    
+.colonna {
+    float: left;
+    padding: 15px;
+
+}
+
+.lato {
+    width: 20%;
+    background-color: #cccac6;
+    color: #341C09;
+}
+
+.centro {
+    margin-right:10px;
+    margin-left: 10px;
+    background-color: white;
+    color: #341C09;
+    width: 78%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .colonna.lato, .colonna.centro {
+        width: 100%;
+        }
+    }
+
+.diritti {
+    background-color: #b1b4ba;
+    text-align: center;
+    padding: 10px;
+}

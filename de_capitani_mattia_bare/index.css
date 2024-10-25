@@ -1,0 +1,57 @@
+body{
+    margin-left: 5%;
+    text-align: center;
+    color: #341C09;
+}
+
+
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+
+}
+
+::selection{
+    background-color: none;
+    color: none;
+}
+
+div.bara{
+    width: 23%;
+    border: 2px solid rgb(187, 187, 122);
+    border-radius: 1.5px;
+    margin: 3px;
+    padding-bottom: 0px;
+}
+
+img.bara{
+    width: 90%;
+    height: 60%;
+}
+
+div.bara:hover{
+    border: 2.5px solid rgb(190, 184, 184);
+    transition: 0.3s;
+    
+    
+
+}
+
+.prezzo{
+    border: 1px solid #706852;
+    border-radius: 3px;
+    background-color: beige;
+    margin-top: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #341C09;
+}
+
+.prezzo:hover{
+    background-color: rgb(197, 197, 146);
+    border-color: darkslategray;
+    transition: 0.3s;
+}
+

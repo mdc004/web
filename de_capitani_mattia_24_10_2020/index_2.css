@@ -1,0 +1,64 @@
+body {
+    margin: 40px;
+    font-size: 20px;
+}
+
+div{
+    background-color: #bbbdbb; 
+    height: 1300px;     /* facendo "height: 100%;" non mi prendeva tutta la pagina, quindi ho messo un'altezza che occupa più o meno tutto lo schermo */
+    padding: 13px;
+}
+
+p{
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+span {
+    padding: 4px;
+    padding-left: 7px;
+    line-height: 38px;
+}
+
+table {
+    margin-left: 148px;
+    width: 285px;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid darkgray;
+    padding: 3px;
+}
+
+.applicazione {
+    border-left: 5px solid red;
+}
+
+.altro {
+    border-left: 5px solid green;
+}
+
+td.applicazione:hover {
+    background-color: red;
+}
+
+td.altro:hover {
+    background-color: green;
+}
+
+td.transport:hover {
+    background-color: lightblue;
+}
+
+td.application:hover {
+    background-color: grey;
+}
+
+td.internet:hover {
+    background-color: yellow;
+}

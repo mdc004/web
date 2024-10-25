@@ -1,0 +1,55 @@
+body {
+    margin: 40px;
+    font-size: 20px;
+}
+
+div{
+    background-color: #bbbdbb; 
+    height: 1300px;     /* facendo "height: 100%;" non mi prendeva tutta la pagina, quindi ho messo un'altezza che occupa più o meno tutto lo schermo */
+    padding: 13px;
+}
+
+p{
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+span {
+    padding: 4px;
+    padding-left: 7px;
+    line-height: 38px;
+}
+
+ul {
+    margin-left: 57px;
+}
+
+li{
+    list-style-type: none;
+    background-color: white;
+    width: 250px;
+    padding: 4px;
+    padding-left: 7px;
+    line-height: 22px;
+    font-weight: bolder;
+}
+
+li.applicazione:hover {
+    background-color: red;
+}
+
+li.altro:hover {
+    background-color: green;
+}
+
+.applicazione {
+    border-left: 5px solid red;
+}
+
+.altro {
+    border-left: 5px solid green;
+}
